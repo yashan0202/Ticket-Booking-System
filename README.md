@@ -10,16 +10,21 @@
 
 <h3>2. Customizable Travel Details:</h3>
 <ul>Origin and Destination Selection: Allows users to specify the start and end points for their journey.</ul>
-<h4>Date Selection:</h4> Users can input a specific travel date for booking.
-<h4>Preferred Berth Selection:</h4> Options include Sleeper, 3AC, 2AC, and 1AC, providing flexibility based on user preference.
-<h4>Train Availability Check:</h4> Displays available trains for the selected route and date.
-<h4>Ticket Confirmation Probability:</h4> Shows the likelihood of ticket confirmation based on seat availability.
+<ul>Date Selection: Users can input a specific travel date for booking.</ul>
+<ul>Preferred Berth Selection: Options include Sleeper, 3AC, 2AC, and 1AC, providing flexibility based on user preference.</ul>
 
-Technologies Used
-Programming Language: Java
-Automation Framework: Selenium WebDriver
-Integrated Development Environment (IDE): Eclipse
-Project Structure
+<h3>3. Train Availability Check:</h3> Displays available trains for the selected route and date.
+
+<h3>4. Ticket Confirmation Probability:</h3> Shows the likelihood of ticket confirmation based on seat availability.
+<br>
+<h2>Technologies Used</h2>
+<br>
+<ul>Programming Language: Java</ul>
+<ul>Automation Framework: Selenium WebDriver</ul>
+<ul>Integrated Development Environment (IDE): Eclipse</ul>
+<br>
+<h2>Project Structure</h2>
+<br>
 Config Files: Contains setup configurations for Selenium and the browser driver.
 Page Objects: Organized by key pages of the booking process on BookMyTrip, simplifying code structure and maintenance.
 Test Cases: Covers the full range of automated booking functionalities and ensures all scenarios (valid bookings, out-of-stock, etc.) are managed appropriately.
