@@ -1,15 +1,15 @@
-<h2>Automated Ticket Booking System - BookMyTrip</h2>
-
-<h3>Project Overview</h3>
-
+<h1>Automated Ticket Booking System - BookMyTrip</h1>
+<br>
+<h2>Project Overview</h2>
+<br>
 <p>This project is an automated ticket booking system built for the BookMyTrip website, aimed at simplifying the process of booking train tickets. Leveraging Selenium WebDriver, this automation script navigates through the booking process, allowing users to book train tickets seamlessly from a specified origin to destination on a selected date. Users can choose their preferred berth type (3AC, 2AC, 1AC, Sleeper), view train availability, and check the probability of ticket confirmation.</p>
+<br>
+<h2>Features</h2>
+<br>
+<h3>1. Automated Booking:</h3> Automates the train ticket booking process from start to finish on the BookMyTrip website.
 
-<h3>Features</h3>
-
-<h4>Automated Booking:</h4> Automates the train ticket booking process from start to finish on the BookMyTrip website.
-
-<h4>Customizable Travel Details:</h4>
-<h4>Origin and Destination Selection:</h4> Allows users to specify the start and end points for their journey.
+<h3>2. Customizable Travel Details:</h3>
+<ul>Origin and Destination Selection: Allows users to specify the start and end points for their journey.</ul>
 <h4>Date Selection:</h4> Users can input a specific travel date for booking.
 <h4>Preferred Berth Selection:</h4> Options include Sleeper, 3AC, 2AC, and 1AC, providing flexibility based on user preference.
 <h4>Train Availability Check:</h4> Displays available trains for the selected route and date.
