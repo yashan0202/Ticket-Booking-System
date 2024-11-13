@@ -25,34 +25,50 @@
 <br>
 <h2>Project Structure</h2>
 <br>
-Config Files: Contains setup configurations for Selenium and the browser driver.
-Page Objects: Organized by key pages of the booking process on BookMyTrip, simplifying code structure and maintenance.
-Test Cases: Covers the full range of automated booking functionalities and ensures all scenarios (valid bookings, out-of-stock, etc.) are managed appropriately.
-How It Works
-Setup and Initialization: The script initiates by loading the BookMyTrip website and applying the required configurations.
-Booking Workflow:
-User inputs origin and destination cities.
-Selects a travel date.
-Chooses a preferred berth type.
-Checking Availability: Once the details are selected, the script verifies the availability of trains on the chosen date.
-Confirmation Probability: Based on real-time data, the script calculates and displays the probability of ticket confirmation.
-Booking Confirmation: Completes the booking if seats are available, and displays a booking confirmation message.
-Error Handling
-Timeouts and Page Load Delays: Implemented to handle scenarios where the website takes longer to load.
-Invalid Inputs and Availability Checks: Ensures proper error messages are displayed if tickets are unavailable or if an invalid route is selected.
-Future Enhancements
-Adding more detailed logging for user actions and any exceptions encountered.
-Integrating with a payment gateway simulation for a more comprehensive booking experience.
-Extending the automation to include other transportation modes (e.g., buses, flights).
-Getting Started
+<ul>Config Files: Contains setup configurations for Selenium and the browser driver.</ul>
+<ul>Page Objects: Organized by key pages of the booking process on BookMyTrip, simplifying code structure and maintenance.</ul>
+<ul>Test Cases: Covers the full range of automated booking functionalities and ensures all scenarios (valid bookings, out-of-stock, etc.) are managed appropriately.</ul>
+<br>
+<h2>How It Works</h2>
+<br>
+<h3>1. Setup and Initialization:</h3> The script initiates by loading the BookMyTrip website and applying the required configurations.
+
+<h3>2. Booking Workflow:</h3>
+<ul>User inputs origin and destination cities.</ul>
+<ul>Selects a travel date.</ul>
+<ul>Chooses a preferred berth type.</ul>
+
+<h3>3. Checking Availability:</h3> Once the details are selected, the script verifies the availability of trains on the chosen date.
+
+<h3>Confirmation Probability:</h3> Based on real-time data, the script calculates and displays the probability of ticket confirmation.
+
+<h3>Booking Confirmation:</h3> Completes the booking if seats are available, and displays a booking confirmation message.
+<br>
+<h2>Error Handling</h2>
+<br>
+<ul>Timeouts and Page Load Delays: Implemented to handle scenarios where the website takes longer to load.</ul>
+
+<ul>Invalid Inputs and Availability Checks: Ensures proper error messages are displayed if tickets are unavailable or if an invalid route is selected.</ul>
+<br>
+<h2>Future Enhancements</h2>
+<br>
+<ul>Adding more detailed logging for user actions and any exceptions encountered.</ul>
+
+<ul>Integrating with a payment gateway simulation for a more comprehensive booking experience.</ul>
+
+<ul>Extending the automation to include other transportation modes (e.g., buses, flights).</ul>
+<br>
+<h2>Getting Started</h2>
+<br>
 To try out this project locally:
 
-Clone the repository.
-Set up Selenium WebDriver for the browser of choice (Chrome, Firefox, etc.).
-Open the project in Eclipse IDE.
-Configure the origin, destination, date, and berth in the test script.
-Run the automation script.
-Prerequisites
-Java Development Kit (JDK) - Ensure Java is installed and configured.
-Selenium WebDriver - Download and set up the browser driver for Chrome/Firefox.
-Eclipse IDE - Import the project into Eclipse for seamless execution.
+<ol>Clone the repository.</ol>
+<ol>Set up Selenium WebDriver for the browser of choice (Chrome, Firefox, etc.).</ol>
+<ol>Open the project in Eclipse IDE.</ol>
+<ol>Configure the origin, destination, date, and berth in the test script.</ol>
+<ol>Run the automation script.</ol>
+
+<br>
+<br>
+
+<h2><i>Developed by: </i>Yash Anand</h2>
