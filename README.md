@@ -77,7 +77,6 @@
         <li><strong>Eclipse IDE</strong>: Import the project into Eclipse for seamless execution.</li>
     </ul>
 
-</body>
-</html>
+
 
 <h2><i>Developed by: </i>Yash Anand</h2>
