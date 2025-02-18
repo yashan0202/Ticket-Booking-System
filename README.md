@@ -79,4 +79,4 @@
 
 
 
-<h2><i>Developed by: </i>Yash Anand </h2>
+<h2><i>Developed by: </i>Yash Anand</h2>
